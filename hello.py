@@ -30,7 +30,7 @@ def make_underlined(func):
 @make_emphasis
 @make_underlined
 def buy():
-    return "Buy! "
+    return "Buy!"
 
 @app.route("/username/<name>")
 def greet(name):
